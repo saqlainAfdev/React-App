@@ -1,0 +1,46 @@
+{
+    "books":[
+        {
+            "title": "Crime and Punishment",
+            "author": "Fyodor Dostoyevsky",
+            "body": "It is a murder story, told from a murder;s point of view, that implicates even the most innocent reader in its enormities. It is a cat-and-mouse game between a tormented young killer and a cheerful...",
+            "id":1
+        },
+        {
+            "title": "War and Peace",
+            "author": "Leo Tolstoy",
+            "body": "Epic in scale, War and Peace delineates in graphic detail events leading up to Napoleon's invasion of Russia, and the impact of the Napoleonic era on Tsarist society, as seen through the eyes of fi...",
+            "id":2
+        },
+        {
+            "title": "Heart of Darkness",
+            "author": "Joseph Conrad",
+            "body": "The story details an incident when Marlow, an Englishman, took a foreign assignment from a Belgian trading company as a ferry-boat captain in Africa. Although Conrad does not specify the name of th...",
+            "id":3
+        },
+        {
+            "title": "The Sun Also Rises",
+            "author": "Ernest Hemingway",
+            "body": "The novel explores the lives and values of the so-called 'Lost Generation,' chronicling the experiences of Jake Barnes and several acquaintances on their pilgrimage to Pamplona for the annual San F...",
+            "id":4
+        },
+        {
+            "title": "Exit West",
+            "author": "Mohsin Hamid",
+            "body": "Exit West is a 2017 novel by Pakistani author Mohsin Hamid. It is Hamid's fourth novel. The main themes of the novel are emigration and refugee problems.The novel is about a young couple, Saeed and...",
+            "id":5
+        },
+        {
+            "title": "Family Life",
+            "author": "Akhil Sharma",
+            "body": "Finally joining their father in America, Ajay and Birju enjoy their new, extraordinary life until tragedy strikes, leaving one brother incapacitated and the other practically orphaned in this stran...",
+            "id":6
+        },
+        {
+            "title": "The Golden Gate",
+            "author": "Vikram Seth",
+            "body": "Written in verse, this was Vikram Seth's first novel. Set in the 1980s, in the affluence and sunshine of California's silicon valley, it is the story of twenty-somethings looking for love, pleasure...",
+            "id":7
+        }
+    ]
+}
