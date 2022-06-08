@@ -1,15 +1,36 @@
+
+// import { Link } from 'react-router-dom';
+
+// const Navbar = () => {
+//     return ( 
+//         <header>
+//             <nav className="navbar">
+//             <h1 className="logo"><Link to="/">Logo</Link></h1>
+//             <div className="link">
+//                 <Link to="/">Home</Link>
+//                 <Link to="/create">Blog</Link>
+//             </div>
+//         </nav>
+//         </header>        
+//      );
+// }
+ 
+// export default Navbar;
+
+
+import { Link } from 'react-router-dom';
 const Navbar = () => {
-    return ( 
+    return (
         <header>
             <nav className="navbar">
-            <h1 className="logo"><a href="/">Logo</a></h1>
-            <div className="link">
-                <a href="/">Home</a>
-                <a href="/create">Blog</a>
-            </div>
-        </nav>
-        </header>        
-     );
+                <h1 className="logo"><Link to="/">Logo</Link></h1>
+                <div className="link">
+                    <Link to="/">Home</Link>
+                    <Link to="/create">Blog</Link>
+                </div>
+            </nav>
+        </header>
+    );
 }
- 
+
 export default Navbar;
