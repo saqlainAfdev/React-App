@@ -1,11 +1,11 @@
 // import { useState } from "react";
+// import useFetch from "./UseFetch";
 
 const Blogs = (props) => {
   const title = props.title;
   const blogs = props.Blogs;
   const myFunc = props.deleteBlog;
   return (
-    <>
     <div className="container">
       <h1 className="mb-3">{title}</h1>
       <div className="blogs">
@@ -23,7 +23,6 @@ const Blogs = (props) => {
         ))}
       </div>
     </div>
-    </>
   );
 };
 

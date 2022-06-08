@@ -132,3 +132,12 @@ header {
   font-size: 19px;
   color: #666;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.py-5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
