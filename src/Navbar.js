@@ -18,7 +18,7 @@
 // export default Navbar;
 
 
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';   
 const Navbar = () => {
     return (
         <header>
@@ -26,7 +26,7 @@ const Navbar = () => {
                 <h1 className="logo"><Link to="/">Logo</Link></h1>
                 <div className="link">
                     <Link to="/">Home</Link>
-                    <Link to="/create">Blog</Link>
+                    <Link to="/create">New Blog</Link>
                 </div>
             </nav>
         </header>
