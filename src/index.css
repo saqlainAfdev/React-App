@@ -88,6 +88,10 @@ header {
   font-size: 16px;
   margin-bottom: 10px;
   line-height: 22px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
 }
 
 .primary-btn {
@@ -131,4 +135,36 @@ header {
   width: 200px;
   font-size: 19px;
   color: #666;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.py-5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blog-detail-card h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #f47c7c;
+}
+
+.blog-detail-card h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #f47c7c;
+}
+
+.blog-detail-card p {
+  font-size: 20px;
+    color: #666;
+    line-height: 28px;
 }
