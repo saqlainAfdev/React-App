@@ -3,7 +3,8 @@
 const Blogs = (props) => {
   const title = props.title;
   const blogs = props.Blogs;
-  const myFunc = props.deleteBlog;
+  const myFunc = props.deleteBlog; 
+  
   return (
     <>
     <div className="container">
